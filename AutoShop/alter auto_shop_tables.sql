@@ -24,3 +24,5 @@ ALTER TABLE customer ADD CONSTRAINT id_cs_pk PRIMARY KEY (id);
 
 ALTER TABLE number_ ADD CONSTRAINT id_num_pk PRIMARY KEY (id);
 ALTER TABLE number_ ADD CONSTRAINT customer_id_fk Foreign KEY(customer_id) references customer(id);
+hello
+
